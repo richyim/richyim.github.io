@@ -1,14 +1,71 @@
+<!DOCTYPE html>
 <html>
 <head>
-<script>
-function myFunction() {
-window.location.href = "https://wtk7du2aed.execute-api.ap-southeast-2.amazonaws.com/helloworld";
-}
-</script>
+  <title>Rich Yim</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<h2>Redirect to a Webpage</h2>
-<p>The location.href method redirects the user to a new webpage:</p>
-<button onclick="myFunction()">Redirect</button>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Rich Yim</h1>
+    <div class="profile-photo">
+      <img src="profile_picture/photo.jpg" alt="Your Photo">
+    </div>
+    <p>Systems Architect in Cisco Systems</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+  <ul>
+    <li>Living in Hong Kong</li>
+    <li>Working for Cisco</li>
+    <li>Holding a double CCIE certification</li>
+    <li>Having a master's degree from Hong Kong Polytechnic University</li>
+    <li>Completing an undergraduate degree at Ryerson University in Canada</li>
+  </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of the project.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of the project.</p>
+    </div>
+    <!-- Add more projects as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
