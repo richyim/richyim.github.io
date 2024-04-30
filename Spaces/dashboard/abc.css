@@ -1,0 +1,34 @@
+/* abc.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0088cc;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+ul li a:hover {
+    background-color: #e8e8e8;
+}
